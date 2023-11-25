@@ -1,31 +1,62 @@
 * {
   box-sizing: border-box;
 }
-/*Nav Bar styling */
-#navigation a {
-  float: right;
-  color: darkblue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-h1 {
-  font-size: 40px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-}
 
 /*Hero styling*/
+
+header {
+  background-color: rgb(112, 117, 144); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black; 
+  padding: 15px;
+}
+
+/* Flexbox is a common way to style navigation bars. This makes the list items flex containers which makes it easier to style.   */
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 35px; 
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Navigation bar styling. List-style:none removes the bullet points from the list.  */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1; 
+  margin-right: 25px; 
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Enhances user experience */
+nav a:hover {
+  color: #3498db; 
+}
 .hero-banner {
   background-image: url("../images/background.jpg");
   height:400px;
 }
+
 .hero-banner h2 {
 text-align: right;
 font-size: 30px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-position: relative;
-top: 350px; left:300px;
+position: absolute;
+bottom: 220px;
+right: 100px;
+  margin: 20px; /* Add margin for spacing */
 }
 
 
