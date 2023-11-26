@@ -2,7 +2,7 @@
 
 ## My second challenge with the edX Bootcamp
 
-I completed this task for the second challenge in my Skills Boot Camp in Front-End Web Development. The purpose of this task was to create a work portfolio for employers to see my work. I can add to the page as I complete more projects during the course. I was provided with starter code and needed to complete the code. I used the skills I have taught in the live lessons: flexbox, media queries and CSS variables. 
+I completed this task for the second challenge in my Skills Boot Camp in Front-End Web Development. The purpose of this task was to create a work portfolio for employers to see my work. I can add to the page as I complete more projects during the course. I was provided with starter code and needed to complete the code. I used the skills I have been taught in the live lessons: flexbox, media queries and CSS variables. 
 
 ## Usage
 Click on the links in the navigation bar to be directed to the relevant section of the website. See the screenshot below to see the navigation bar: 
