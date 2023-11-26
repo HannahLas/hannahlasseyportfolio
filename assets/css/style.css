@@ -71,6 +71,7 @@ margin: 20px;
   max-width: 600px;
   padding:20px;
 }
+
 h2 {
   text-align: center;
   font-size: 50px;
@@ -81,7 +82,7 @@ h2 {
   height:100px;
   margin-right:20px;
   margin-left: 20px;
-  border: 2px solid #acbfcc; 
+  border: 4px solid #acbfcc; 
   border-radius: 30px; 
   overflow: hidden; 
   float:right;
@@ -105,8 +106,9 @@ body {
   flex-direction: row;
 }
 
+
 .column {
-  flex: 0 0 calc(33.33% - 20px); /* Three equally sized items per row, adjust as needed */
+  flex: 0 0 calc(33.33% - 20px); 
   margin: 10px;
   overflow: hidden;
   display:inline-block;
@@ -135,6 +137,7 @@ body {
   height: auto;
   display: block;
 }  
+
 /* Border styling */
 .column img, .column1 img {
 
@@ -146,8 +149,8 @@ body {
   background-color: white; 
 }
  .text {
- text-align: center;
- padding: 5px; 
+  text-align: center;
+  padding: 5px; 
   border: 18px solid transparent; 
   border-image: linear-gradient(to bottom, #ddd, #888);
   border-image-slice: 1; 
@@ -168,6 +171,7 @@ h6 {
 p {
   margin: 0;
 }
+/*Styling for the contact me section */
 
 .page-section contact, ul {
   display:inline-block;
@@ -183,5 +187,49 @@ p {
 footer {
   text-align: center;
   margin-top: 50px;
-  text-decoration-style: dotted;
+}
+
+/*Media Queries to create a responsive site */
+
+@media (max-width: 768px) {
+  
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+nav a {
+  display:none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  float:none;
+
+}
+/*I couldn't work out how to move the image below the <p> here so hid the image instead/ */
+
+.mephoto {
+  display:none;
+}
+.hero-banner h2 {
+  text-align: center;
+  font-size: 18px;
+  position: static;
+  margin-bottom: 10px;
+}
+.row {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact ul {
+  display:flex;
+  flex-direction: column;
+}
 }
